@@ -27,6 +27,16 @@ class MyStack extends StatefulWidget {
 
 class _MyStackState extends State<MyStack> {
   @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
+  dispose() {
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
