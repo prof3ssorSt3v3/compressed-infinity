@@ -28,6 +28,10 @@ class MyStack extends StatefulWidget {
 class _MyStackState extends State<MyStack> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Scaffold(
+      body: Center(
+        child: Text('MyStack'),
+      ),
+    );
   }
 }
