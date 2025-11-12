@@ -5,11 +5,9 @@ class Screen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: SafeArea(
-        child: Center(
-          child: Text('A Screen'),
-        ),
+    return SafeArea(
+      child: Center(
+        child: Text('Lobster Screen'),
       ),
     );
   }
